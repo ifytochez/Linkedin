@@ -1,0 +1,119 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+   
+}
+.logo img{
+    width: 110px;
+    height: 70px;
+    margin-left: 500px;
+    margin-top: 20px;
+}
+.nav{
+    line-height: 4px;
+}
+.navi{
+    display: flex;
+    flex-direction: column;
+    margin-left: 500px; 
+    background: white;
+    width: 360px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(235, 232, 232);
+}
+.p1{
+    font-size: 30px;
+    margin-left: 12px;
+}.p2{
+    font-size: 13px;
+    color: rgb(80, 70, 70);
+    margin-left: 12px;
+}
+.Form{
+    margin-top: 5px;
+}
+.email{
+    height: 45px;
+    width: 330px;
+   font-size: 18px;
+   margin-left: 12px;
+   
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.password{
+    margin-top: 23px;
+    height: 45px;
+    width: 330px;
+    font-size: 18px;
+    margin-left: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.forgot{
+    margin-top: 15px;
+    margin-left: 12px;
+}
+.forgot a{
+    text-decoration: none;
+    color: #0A66C2;  
+    font-weight: bold; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.forgot a:hover{
+    border-radius: 20px;
+    text-decoration: underline;
+    background: #AAE7FF;
+    padding: 10px 5px 10px 5px;
+}
+.sign{
+    margin-top: 20px;
+    border-radius: 50px;
+    background: #0A66C2;
+    height: 50px;
+    width: 320px;
+    text-align: center;
+    margin-left: 12px;
+}
+.sign p{
+    margin-top: 20px;
+    color: white;
+}
+.new{
+    margin-top: 40px;
+    margin-left: 600px; 
+}  
+.new a{
+    text-decoration: none;
+    color: #0A66C2;
+} 
+.new a:hover{
+    border-radius: 20px;
+    text-decoration: underline;
+    background: #AAE7FF;
+    padding: 8px 5px 8px 5px;
+} 
+#footer{
+ position: fixed;
+left: 280px;
+bottom: 20px;
+width: 100%;
+background-color: white;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+#footer img{
+    width: 80px;
+    height: 43px;
+    margin-top: 10px;
+}
+#footer a{
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 13px;
+    color: rgb(80, 70, 70);
+}
+#footer a:hover{
+    text-decoration: underline;
+}
